@@ -1,17 +1,18 @@
 {
   "name": "intro-to-nodejs-npm",
-  "version": "1.2.0-beta.1",
+  "version": "1.2.0-beta.2",
   "description": "npm into package",
   "main": "1-built-ins.js",
   "scripts": {
     "test": "node test.js",
-    "start": "node 1-built-ins.js"
+    "start": "nsp check"
   },
   "author": "Benjamin Huang",
   "license": "ISC",
   "dependencies": {
     "grunt": "^1.0.1",
     "jshint": "^2.9.5",
+    "open": "0.0.5",
     "underscore": "^1.8.3"
   },
   "devDependencies": {},
