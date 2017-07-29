@@ -1,17 +1,22 @@
 {
   "name": "intro-to-nodejs-npm",
-  "version": "1.2.0-beta.2",
+  "version": "1.2.0-beta.3",
   "description": "npm into package",
   "main": "1-built-ins.js",
   "scripts": {
     "test": "node test.js",
-    "start": "nsp check"
+    "prestart": "node ./buildScripts/startMessage.js",
+    "start": "npm-run-all --parallel security-check open:src",
+    "open:src": "node ./buildScripts/srcServer.js",
+    "security-check": "nsp check"
   },
   "author": "Benjamin Huang",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^2.0.1",
     "grunt": "^1.0.1",
     "jshint": "^2.9.5",
+    "npm-run-all": "^4.0.2",
     "open": "0.0.5",
     "underscore": "^1.8.3"
   },
