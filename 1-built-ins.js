@@ -8,3 +8,4 @@ console.log("Host: " + os.hostname);
 console.log("15 min . load average: "+ os.loadavg()[2]);
 console.log(toMb(os.freemem())+" of "+ toMb(os.totalmem())+ "MB free");
 console.log("Platform: "+ os.platform());
+console.log("cup: "+ os.cpus());
