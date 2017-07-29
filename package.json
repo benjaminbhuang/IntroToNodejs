@@ -1,0 +1,32 @@
+{
+  "name": "intro-to-nodejs-npm",
+  "version": "1.0.0",
+  "description": "npm into package",
+  "main": "1-built-ins.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node 1-built-ins.js"
+  },
+  "author": "Benjamin Huang",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "jshint": "^2.9.5",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminbhuang/IntroToNodejs.git"
+  },
+  "keywords": [
+    "intro",
+    "to",
+    "nodejs",
+    "npm"
+  ],
+  "bugs": {
+    "url": "https://github.com/benjaminbhuang/IntroToNodejs/issues"
+  },
+  "homepage": "https://github.com/benjaminbhuang/IntroToNodejs#readme"
+}
